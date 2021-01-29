@@ -23,7 +23,7 @@ patch: |-
                 port: 8080
               initialDelaySeconds: 10
               periodSeconds: 3
-              timeoutSeconds: 5
+              timeoutSeconds: 30
             readinessProbe:
               initialDelaySeconds: 20
               periodSeconds: 10
