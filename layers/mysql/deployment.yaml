@@ -37,7 +37,6 @@ spec:
           # persistentVolumeClaim:
           #   claimName: mysql
           emptyDir: {}
-
 ---
 
 apiVersion: v1
